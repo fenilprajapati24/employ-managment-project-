@@ -1,44 +1,4 @@
-// import { useSelector } from "react-redux";
 
-// const Show = () => {
-
-//   const { joblist } = useSelector((store) => store.jobs);
-
-//   console.log("data from show", joblist);
-
-//   return (
-//     <div className="p-6">
-      
-//       {joblist.length === 0 ? (
-//         <h2 className="text-center text-xl">No Data Found</h2>
-//       ) : (
-//         joblist.map((job, index) => (
-//           <div
-//             key={index}
-//             className="bg-gray-200 p-4 mb-3 rounded shadow"
-//           >
-//             <p>
-//               <b>Name:</b> {job.firstName || job.firstname}{" "}
-//               {job.lastName || job.lastname}
-//             </p>
-//             <p>
-//               <b>Title:</b> {job.jobTitle || job.job_title}
-//             </p>
-//             <p>
-//               <b>Role:</b> {job.jobRole || job.job_role}
-//             </p>
-//             <p>
-//               <b>Description:</b> {job.jobDescription || job.job_desc}
-//             </p>
-//           </div>
-//         ))
-//       )}
-
-//     </div>
-//   );
-// };
-
-// export default Show;
 
 
 
